@@ -130,3 +130,6 @@ dmypy.json
 
 #NodeJs modules
 front_end/node_modules/
+
+#For VsCode
+.vscode
