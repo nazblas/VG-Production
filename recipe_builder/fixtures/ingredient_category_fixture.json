@@ -1,0 +1,65 @@
+[
+  {
+    "model": "recipe_builder.Ingredient_Category",
+    "pk": 1,
+    "fields": {
+      "ingredient_category_name": "Vegetables"
+    }
+  },
+  {
+    "model": "recipe_builder.Ingredient_Category",
+    "pk": 2,
+    "fields": {
+      "ingredient_category_name": "Fruits"
+    }
+  },
+  {
+    "model": "recipe_builder.Ingredient_Category",
+    "pk": 3,
+    "fields": {
+      "ingredient_category_name": "Meat"
+    }
+  },
+  {
+    "model": "recipe_builder.Ingredient_Category",
+    "pk": 4,
+    "fields": {
+      "ingredient_category_name": "Fish"
+    }
+  },
+  {
+    "model": "recipe_builder.Ingredient_Category",
+    "pk": 5,
+    "fields": {
+      "ingredient_category_name": "Spices"
+    }
+  },
+  {
+    "model": "recipe_builder.Ingredient_Category",
+    "pk": 6,
+    "fields": {
+      "ingredient_category_name": "Seafood"
+    }
+  },
+  {
+    "model": "recipe_builder.Ingredient_Category",
+    "pk": 7,
+    "fields": {
+      "ingredient_category_name": "Dairy and eggs"
+    }
+  },
+  {
+    "model": "recipe_builder.Ingredient_Category",
+    "pk": 8,
+    "fields": {
+      "ingredient_category_name": "Nuts and beans"
+    }
+  },
+  {
+    "model": "recipe_builder.Ingredient_Category",
+    "pk": 9,
+    "fields": {
+      "ingredient_category_name": "Flour and grains"
+    }
+  }
+]

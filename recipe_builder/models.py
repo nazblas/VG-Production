@@ -16,6 +16,8 @@ class Ingredient(models.Model):
 class Dish_Ingredient(models.Model):
     ingredient_id = models.ForeignKey(Ingredient, on_delete=models.DO_NOTHING)
 
+
+    
 class Dish(models.Model):
     dish_id = models.AutoField(primary_key=True)
     dish_name = models.CharField(max_length=100)
@@ -23,4 +25,5 @@ class Dish(models.Model):
     ingredient_id = models.ManyToManyField(Dish_Ingredient)
     recipe = models.TextField(blank=True)
     dish_description = models.TextField(blank=True)
+
 

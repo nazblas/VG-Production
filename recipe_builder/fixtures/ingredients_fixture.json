@@ -1,0 +1,119 @@
+[
+  {
+    "model": "recipe_builder.Ingredient",
+    "pk": 1,
+    "fields": {
+      "ingredient_name": "Potato",
+      "ingredient_category_id" : "1"
+
+    }
+  },
+  {
+    "model": "recipe_builder.Ingredient",
+    "pk": 2,
+    "fields": {
+      "ingredient_name": "Carrot",
+      "ingredient_category_id" : "1"
+
+    }
+  },
+  {
+    "model": "recipe_builder.Ingredient",
+    "pk": 3,
+    "fields": {
+      "ingredient_name": "Onion",
+      "ingredient_category_id" : "1"
+
+    }
+  },
+  {
+    "model": "recipe_builder.Ingredient",
+    "pk": 4,
+    "fields": {
+      "ingredient_name": "Garlic",
+      "ingredient_category_id" : "1"
+
+    }
+  },
+  {
+    "model": "recipe_builder.Ingredient",
+    "pk": 5,
+    "fields": {
+      "ingredient_name": "Broccoli",
+      "ingredient_category_id" : "1"
+
+    }
+  },
+  {
+    "model": "recipe_builder.Ingredient",
+    "pk": 6,
+    "fields": {
+      "ingredient_name": "Cabbage",
+      "ingredient_category_id" : "1"
+
+    }
+  },
+  {
+    "model": "recipe_builder.Ingredient",
+    "pk": 7,
+    "fields": {
+      "ingredient_name": "Celery",
+      "ingredient_category_id" : "1"
+
+    }
+  },
+  {
+    "model": "recipe_builder.Ingredient",
+    "pk": 8,
+    "fields": {
+      "ingredient_name": "Apple",
+      "ingredient_category_id" : "2"
+
+    }
+  },
+  {
+    "model": "recipe_builder.Ingredient",
+    "pk": 9,
+    "fields": {
+      "ingredient_name": "Orange",
+      "ingredient_category_id" : "2"
+
+    }
+  },
+  {
+    "model": "recipe_builder.Ingredient",
+    "pk": 10,
+    "fields": {
+      "ingredient_name": "Lemon",
+      "ingredient_category_id" : "2"
+
+    }
+  },
+  {
+    "model": "recipe_builder.Ingredient",
+    "pk": 11,
+    "fields": {
+      "ingredient_name": "Eggs",
+      "ingredient_category_id" : "7"
+
+    }
+  },
+  {
+    "model": "recipe_builder.Ingredient",
+    "pk": 12,
+    "fields": {
+      "ingredient_name": "Butter",
+      "ingredient_category_id" : "7"
+
+    }
+  },
+  {
+    "model": "recipe_builder.Ingredient",
+    "pk": 13,
+    "fields": {
+      "ingredient_name": "Milk",
+      "ingredient_category_id" : "7"
+
+    }
+  }
+]
