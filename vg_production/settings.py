@@ -31,7 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
-    'recipe_builder.apps.RecipeBuilderConfig',
+    'vg_production.recipe_builder',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',

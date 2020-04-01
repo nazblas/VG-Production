@@ -88,32 +88,5 @@
       "ingredient_category_id" : "2"
 
     }
-  },
-  {
-    "model": "recipe_builder.Ingredient",
-    "pk": 11,
-    "fields": {
-      "ingredient_name": "Eggs",
-      "ingredient_category_id" : "7"
-
-    }
-  },
-  {
-    "model": "recipe_builder.Ingredient",
-    "pk": 12,
-    "fields": {
-      "ingredient_name": "Butter",
-      "ingredient_category_id" : "7"
-
-    }
-  },
-  {
-    "model": "recipe_builder.Ingredient",
-    "pk": 13,
-    "fields": {
-      "ingredient_name": "Milk",
-      "ingredient_category_id" : "7"
-
-    }
   }
 ]

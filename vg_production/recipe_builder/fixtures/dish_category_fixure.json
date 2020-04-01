@@ -59,7 +59,7 @@
     "model": "recipe_builder.Dish_Category",
     "pk": 9,
     "fields": {
-      "dish_category_name": "Vegetarian"
+      "dish_category_name": "Vegetables sides"
     }
   },
   {
