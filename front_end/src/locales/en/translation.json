@@ -1,4 +1,14 @@
 {
   "welcomeMessage": "Welcome to React!",
-  "learnReactButton": "Learn react!"
+  "ingridientOption": "Ingridient",
+  "searchButn":"Search",
+  "byRecipeBtn": "By Recipe",
+  "byIngBtn": "By Ingridients",
+  "category": "Category Name",
+  "dishTitle": "Dish",
+  "dishDesc": "This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.",
+  "moreBtn": "More",
+  "recDishTitle": "Dish",
+  "recDishDesc": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+  "imgAlt": "food"
 }

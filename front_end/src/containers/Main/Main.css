@@ -1,0 +1,13 @@
+#main{
+    margin-top: 4rem;
+}
+.recipeCard{
+    background-color: #ffdf75;
+}
+
+.recommended--recipe {
+    width: 18rem;
+}
+.recommended--recipe_image{
+    background-color: #ffdf75;
+}
