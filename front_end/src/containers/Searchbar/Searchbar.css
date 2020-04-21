@@ -1,3 +1,20 @@
 .searchbar{
     width: 80vh !important;
 }
+.option_style{
+    color: rgb(0, 0, 0) !important;
+    background: #ffff !important;
+    outline: none;
+}
+.option_style:hover{
+    background: #ffdf75 !important;
+}
+.selectpicker.btn-outline-warning{
+    color: black !important;
+}
+.filter-option-inner-inner{
+    color: black !important;
+}
+.option_style.selected{
+    background-color: #ffc107 !important;
+}

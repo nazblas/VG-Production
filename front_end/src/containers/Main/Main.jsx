@@ -8,9 +8,8 @@ function Main({t})
         const lside = [];
         const main = [];
         const rside = [];
-
         for (let i = 0; i < 15; i++){
-            lside.push(<div className="form-check mb-3">
+            lside.push(<div className="form-check mb-3 offset-2">
                             <input className="form-check-input" type="checkbox"/>
                             <label className="form-check-label" for="defaultCheck1">{t("category")}</label>
                        </div>);
