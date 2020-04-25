@@ -2,6 +2,7 @@ import React from 'react';
 import './Searchbar.css';
 import i18n from '../../i18n';
 import { withNamespaces } from 'react-i18next';
+import {showResults} from '../../api/showResults.jsx';
 
 function Searchbar({ t }) {
 
@@ -26,11 +27,11 @@ function Searchbar({ t }) {
                     <input type="radio" name="options"></input>
                 </label>
             </div>
-            <form className="form-inline mx-auto">
+            <form action="#" className="form-inline mx-auto">
                 <select className="selectpicker searchbar " multiple data-live-search="true" data-style="btn-outline-warning" data-size="5"  >
                     {options}
                 </select>
-                <button className="btn my-2 my-sm-0 ml-2 btn-outline-warning" type="submit">{t("searchButn")}</button>
+                <button className="btn my-2 my-sm-0 ml-2 btn-outline-warning" type="submit" onClick={showResults}>{t("searchButn")}</button>
             </form>
             <div className="btn-group btn-group-toggle" data-toggle="buttons">
                 <label className="btn btn-warning active">{t("byRecipeBtn")}

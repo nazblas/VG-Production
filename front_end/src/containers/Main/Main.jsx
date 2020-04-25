@@ -54,7 +54,7 @@ function Main({t})
                         {lside}
                     </div>
                     <div className="col-md-7">
-                        <ul className="list-group dishes">
+                        <ul className="list-group dishes" id="dishList">
                             {main}
                         </ul>
                     </div>
