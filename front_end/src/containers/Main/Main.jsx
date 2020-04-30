@@ -1,6 +1,5 @@
-import React,{Component} from 'react';
+import React from 'react';
 import './Main.css';
-import { withNamespaces } from 'react-i18next';
 import Dish from '../../components/dish.jsx'
 import RSideElement from '../../components/rSideElement.jsx'
 import LSideElement from '../../components/lSideElement.jsx'
@@ -19,8 +18,6 @@ class Main extends React.Component {
  	 };
 	
 	render() {
-
-	const { t } = this.props;	
 
         return(
 	<React.Fragment>
@@ -47,4 +44,4 @@ class Main extends React.Component {
 	}
 }
 
-export default withNamespaces()(Main)
+export default Main;
