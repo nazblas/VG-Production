@@ -10,7 +10,6 @@ function App({ t }) {
     storeDataToSessionStorage();   
     return (
         <div className="App">
-            <Searchbar/>
             <Main/>
         </div>
       );

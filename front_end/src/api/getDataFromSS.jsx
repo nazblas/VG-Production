@@ -1,11 +1,3 @@
-import React from 'react';
+export const getIngridient = () => sessionStorage.getItem('ingridient');
 
-export function getIngridient()
-{
-	return(sessionStorage.getItem('ingridient'));
-}
-
-export function getDish()
-{
-	return(sessionStorage.getItem('dish'));
-}
+export const getDish = () => sessionStorage.getItem('dish');
