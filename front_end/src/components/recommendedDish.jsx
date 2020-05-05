@@ -1,7 +1,7 @@
 import React,{Component} from 'react';
 import { withNamespaces } from 'react-i18next';
 
-class RSideElement extends Component {
+class RecommendedDish extends Component {
         render() {
 
 const { t } = this.props;
@@ -20,4 +20,4 @@ const { t } = this.props;
 );
         }
 }
-export default withNamespaces()(RSideElement)
+export default withNamespaces()(RecommendedDish)

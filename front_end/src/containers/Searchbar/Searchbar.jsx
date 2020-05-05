@@ -6,7 +6,14 @@ import { withNamespaces } from 'react-i18next';
 class Searchbar extends React.Component {
 
 	state = {
-		searchResult: [{id:1,dish:"dishName1"},{id:2,dish:"dishName2"},{id:3,dish:"dishName3"}]
+		searchResult: []
+	}
+	
+	componentDidMount(){
+		this.setState({
+			searchResult: [{dish_name:"dishName1",dish_description:"dishDesc1"},
+			 	       {dish_name:"dishName2",dish_description:"dishDesc2"}]
+		});
 	}
 
 	render() {

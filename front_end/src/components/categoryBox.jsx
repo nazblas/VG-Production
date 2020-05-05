@@ -1,7 +1,7 @@
 import React,{Component} from 'react';
 import { withNamespaces } from 'react-i18next';
 
-class LSideElement extends Component {
+class CategoryBox extends Component {
         render() {
 
 const { t } = this.props;
@@ -14,4 +14,4 @@ const { t } = this.props;
 );
         }
 }
-export default withNamespaces()(LSideElement)
+export default withNamespaces()(CategoryBox)
