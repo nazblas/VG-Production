@@ -3,9 +3,23 @@ import './Searchbar.css';
 import i18n from '../../i18n';
 import { withNamespaces } from 'react-i18next';
 
-function Searchbar({ t }) {
+class Searchbar extends React.Component {
 
-    const changeLanguage = (lng) => {
+	state = {
+		searchResult: []
+	}
+	
+	componentDidMount(){
+		this.setState({
+			searchResult: [{dish_name:"dishName1",dish_description:"dishDesc1"},
+			 	       {dish_name:"dishName2",dish_description:"dishDesc2"}]
+		});
+	}
+
+	render() {
+	const { t } = this.props;
+
+	const changeLanguage = (lng) => {
         i18n.changeLanguage(lng);
     }
 
@@ -13,7 +27,6 @@ function Searchbar({ t }) {
     for(let i in "ingridientOption"){ // later we`ll need to connect it to the api ALSO if u need to remake loop do it this way but instead of in use of!
         options.push(<option className="option_style">{t("ingridientOption")} {i}</option>);
     }
-    
 
     
     return(
@@ -26,11 +39,11 @@ function Searchbar({ t }) {
                     <input type="radio" name="options"></input>
                 </label>
             </div>
-            <form className="form-inline mx-auto">
+            <form action="#" className="form-inline mx-auto">
                 <select className="selectpicker searchbar " multiple data-live-search="true" data-style="btn-outline-warning" data-size="5"  >
                     {options}
                 </select>
-                <button className="btn my-2 my-sm-0 ml-2 btn-outline-warning" type="submit">{t("searchButn")}</button>
+                <button className="btn my-2 my-sm-0 ml-2 btn-outline-warning" type="submit" onClick={() => this.props.onResponse(this.state.searchResult)}>{t("searchButn")}</button>
             </form>
             <div className="btn-group btn-group-toggle" data-toggle="buttons">
                 <label className="btn btn-warning active">{t("byRecipeBtn")}
@@ -42,5 +55,7 @@ function Searchbar({ t }) {
             </div>
         </nav>
         );
-};
+	};
+}
+
 export default withNamespaces()(Searchbar);
