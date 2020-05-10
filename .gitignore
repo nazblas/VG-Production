@@ -133,3 +133,6 @@ front_end/node_modules/
 
 #For VsCode
 .vscode
+
+#For Idea
+.idea
