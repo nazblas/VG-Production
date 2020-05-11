@@ -4,6 +4,7 @@ import Dish from '../../components/dish.jsx'
 import RecommendedDish from '../../components/recommendedDish.jsx'
 import CategoryBox from '../../components/categoryBox.jsx'
 import Searchbar from '../Searchbar/Searchbar.jsx'
+import DishInfo from '../Dish_info/Dish_info.jsx'
 
 
 class Main extends React.Component {
@@ -12,7 +13,6 @@ class Main extends React.Component {
 		categoryList: [],
 		dishList: [],
 		recommendedList: [],
-		dish_info: []
   	}
 
 	componentDidMount(){
@@ -44,6 +44,7 @@ class Main extends React.Component {
                     <div className="col-md-7">
                         <ul className="list-group dishes" id="dishList">
 	     		  			{this.state.dishList.map(item => (<Dish/>))}
+							{/*{this.state.dishList.map(item => (<DishInfo/>))} if you wanna test uncomment*/}
 						</ul>
                     </div>
                     <div className="col-md-3">
