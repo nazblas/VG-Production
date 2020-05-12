@@ -39,18 +39,18 @@ class Main extends React.Component {
             <div className="container-fluid" id="main">
                 <div className="row">
                     <div className="col-md-2 categories">
-	     		  		{this.state.categoryList.map(item => (<CategoryBox/>))}
+		        {this.state.categoryList.map(item => (<CategoryBox/>))}
                     </div>
                     <div className="col-md-7">
                         <ul className="list-group dishes" id="dishList">
-	     		  			{this.state.dishList.map(item => (<Dish/>))}
-							{/*{this.state.dishList.map(item => (<DishInfo/>))} if you wanna test uncomment*/}
-						</ul>
+	     		    {this.state.dishList.map(item => (<Dish/>))}
+			    {/*{this.state.dishList.map(item => (<DishInfo/>))} if you wanna test uncomment*/}
+			</ul>
                     </div>
                     <div className="col-md-3">
                     	<ul className="list-group float-right recommended">
-	     		  			{this.state.recommendedList.map(item => (<RecommendedDish/>))}
-						</ul>
+	     		    {this.state.recommendedList.map(item => (<RecommendedDish/>))}
+			</ul>
                     </div>
                 </div>
             </div>
