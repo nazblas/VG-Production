@@ -10,5 +10,7 @@
   "moreBtn": "More",
   "recDishTitle": "Dish",
   "recDishDesc": "Some quick example text to build on the card title and make up the bulk of the card's content.",
-  "imgAlt": "food"
+  "imgAlt": "food",
+  "dishRecipe": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut ",
+  "backBtn": "Back"
 }
