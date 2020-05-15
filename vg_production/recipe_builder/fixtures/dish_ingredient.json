@@ -1,0 +1,128 @@
+[
+  {
+    "model": "recipe_builder.Dish_Ingredient",
+    "pk": 1,
+    "fields": {
+      "ingredient_id": "1"
+    }
+  },
+  {
+    "model": "recipe_builder.Dish_Ingredient",
+    "pk": 2,
+    "fields": {
+      "ingredient_id": "2"
+    }
+  },
+  {
+    "model": "recipe_builder.Dish_Ingredient",
+    "pk": 3,
+    "fields": {
+      "ingredient_id": "3"
+    }
+  },
+  {
+    "model": "recipe_builder.Dish_Ingredient",
+    "pk": 4,
+    "fields": {
+      "ingredient_id": "4"
+    }
+  },
+  {
+    "model": "recipe_builder.Dish_Ingredient",
+    "pk": 5,
+    "fields": {
+      "ingredient_id": "5"
+    }
+  },
+  {
+    "model": "recipe_builder.Dish_Ingredient",
+    "pk": 6,
+    "fields": {
+      "ingredient_id": "6"
+    }
+  },
+  {
+    "model": "recipe_builder.Dish_Ingredient",
+    "pk": 7,
+    "fields": {
+      "ingredient_id": "7"
+    }
+  },
+  {
+    "model": "recipe_builder.Dish_Ingredient",
+    "pk": 8,
+    "fields": {
+      "ingredient_id": "8"
+    }
+  },
+  {
+    "model": "recipe_builder.Dish_Ingredient",
+    "pk": 9,
+    "fields": {
+      "ingredient_id": "9"
+    }
+  },
+  {
+    "model": "recipe_builder.Dish_Ingredient",
+    "pk": 10,
+    "fields": {
+      "ingredient_id": "10"
+    }
+  },
+  {
+    "model": "recipe_builder.Dish_Ingredient",
+    "pk": 11,
+    "fields": {
+      "ingredient_id": "11"
+    }
+  },
+  {
+    "model": "recipe_builder.Dish_Ingredient",
+    "pk": 12,
+    "fields": {
+      "ingredient_id": "12"
+    }
+  },
+  {
+    "model": "recipe_builder.Dish_Ingredient",
+    "pk": 13,
+    "fields": {
+      "ingredient_id": "13"
+    }
+  },
+  {
+    "model": "recipe_builder.Dish_Ingredient",
+    "pk": 14,
+    "fields": {
+      "ingredient_id": "14"
+    }
+  },
+  {
+    "model": "recipe_builder.Dish_Ingredient",
+    "pk": 15,
+    "fields": {
+      "ingredient_id": "15"
+    }
+  },
+  {
+    "model": "recipe_builder.Dish_Ingredient",
+    "pk": 16,
+    "fields": {
+      "ingredient_id": "16"
+    }
+  },
+  {
+    "model": "recipe_builder.Dish_Ingredient",
+    "pk": 17,
+    "fields": {
+      "ingredient_id": "17"
+    }
+  },
+  {
+    "model": "recipe_builder.Dish_Ingredient",
+    "pk": 18,
+    "fields": {
+      "ingredient_id": "18"
+    }
+  }
+]

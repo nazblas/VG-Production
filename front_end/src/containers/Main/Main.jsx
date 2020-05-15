@@ -19,11 +19,8 @@ class Main extends React.Component {
    		this.setState({
 			categoryList: [{category_id:1},
 				       {category_id:2}],
-			dishList: [{dish_name:"dishName1",dish_description:"dishDesc1"},
-				   {dish_name:"dishName2",dish_description:"dishDesc2"},
-				   {dish_name:"dishName3",dish_description:"dishDesc3"}],
-			recommendedList: [{dish_name:"recDishName1",dish_description:"recDishDesc1"},
-					  {dish_name:"recDishName2",dish_description:"recDishDesc2"}]
+			dishList: JSON.parse(sessionStorage.getItem('dish')),
+			recommendedList: JSON.parse(sessionStorage.getItem('dish'))
 		});
 	}
 
@@ -43,13 +40,13 @@ class Main extends React.Component {
                     </div>
                     <div className="col-md-7">
                         <ul className="list-group dishes" id="dishList">
-	     		    {this.state.dishList.map(item => (<Dish/>))}
+	     		    {this.state.dishList.map(item => (<Dish name = {item.dish_name} desc = {item.dish_description}/>))}
 			    {/*{this.state.dishList.map(item => (<DishInfo/>))} if you wanna test uncomment*/}
 			</ul>
                     </div>
                     <div className="col-md-3">
                     	<ul className="list-group float-right recommended">
-	     		    {this.state.recommendedList.map(item => (<RecommendedDish/>))}
+	     		    {this.state.recommendedList.map(item => (<RecommendedDish name = {item.dish_name} desc = {item.dish_description}/>))}
 			</ul>
                     </div>
                 </div>

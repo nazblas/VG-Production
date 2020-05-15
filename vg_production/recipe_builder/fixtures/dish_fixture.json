@@ -1,0 +1,57 @@
+[
+  {
+    "model": "recipe_builder.Dish",
+    "pk": 1,
+    "fields": {
+      "dish_name": "Omelette",
+      "dish_category_id": "11",
+      "ingredient_id": "",
+      "recipe": "Whisk three eggs with two tablespoons of cream and cook them on low heat on well-buttered pan",
+      "dish_description": "A nice way to cheer you up in the morning or any other part of your day!"
+    }
+  },
+  {
+    "model": "recipe_builder.Dish",
+    "pk": 2,
+    "fields": {
+      "dish_name": "Broth",
+      "dish_category_id": "1",
+      "ingredient_id": "",
+      "recipe": "boil the whole chicken with two carrots, one onion and some parsley on low heat for at least two hours",
+      "dish_description": "The soup of all soups. Great for those cold rainy days or just any days to be honest!"
+    }
+  },
+  {
+    "model": "recipe_builder.Dish",
+    "pk": 3,
+    "fields": {
+      "dish_name": "Steak",
+      "dish_category_id": "7",
+      "ingredient_id": "",
+      "recipe": "grill your preffered cut of beef on high heat for three minutes per side and then leave it for at least three minutes to rest with a tablespoon of butter and some rosemary",
+      "dish_description": "The most basic yet delicious thing to do with beef"
+    }
+  },
+  {
+    "model": "recipe_builder.Dish",
+    "pk": 4,
+    "fields": {
+      "dish_name": "Pasta",
+      "dish_category_id": "6",
+      "ingredient_id": "",
+      "recipe": "Boil spagetti according to recommendations on the packaging. Then drain it and serve with some butter, grated garlic and some tomatoes",
+      "dish_description": "The dish that will take your mind to the South of Italy and will make you feel greater than ever!"
+    }
+  },
+  {
+  "model": "recipe_builder.Dish",
+  "pk":5 ,
+  "fields": {
+    "dish_name": "Sunny-egg",
+    "dish_category_id": "11",
+    "ingredient_id": "",
+    "recipe": "Crack two eggs on well-buttered pan and fry them until whites are fully cooked and yolks are still runny",
+    "dish_description": "The easiest meal ever! Everyone can do it, but here is the right way to do so"
+  }
+}
+]

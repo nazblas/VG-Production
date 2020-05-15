@@ -4,8 +4,10 @@ import { withNamespaces } from 'react-i18next';
 import Main from './containers/Main/Main.jsx';
 import { storeDataToSessionStorage } from './api/session_storage.js';
 
+
 function App({ t }) {
-    storeDataToSessionStorage();   
+
+    storeDataToSessionStorage();
     return (
         <div className="App">
             <Main/>
