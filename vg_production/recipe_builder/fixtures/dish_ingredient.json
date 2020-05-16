@@ -124,5 +124,12 @@
     "fields": {
       "ingredient_id": "18"
     }
+  },
+  {
+    "model": "recipe_builder.Dish_Ingredient",
+    "pk": 19,
+    "fields": {
+      "ingredient_id": "19"
+    }
   }
 ]

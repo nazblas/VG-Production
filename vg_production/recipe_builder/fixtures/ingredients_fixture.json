@@ -160,5 +160,14 @@
       "ingredient_category_id" : "5"
 
     }
+  },
+  {
+    "model": "recipe_builder.Ingredient",
+    "pk": 19,
+    "fields": {
+      "ingredient_name": "Tomato",
+      "ingredient_category_id" : "1"
+
+    }
   }
 ]

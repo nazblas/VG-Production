@@ -5,7 +5,7 @@
     "fields": {
       "dish_name": "Omelette",
       "dish_category_id": "11",
-      "ingredient_id": "",
+      "ingredient_id": ["11", "12", "13"],
       "recipe": "Whisk three eggs with two tablespoons of cream and cook them on low heat on well-buttered pan",
       "dish_description": "A nice way to cheer you up in the morning or any other part of your day!"
     }
@@ -16,7 +16,7 @@
     "fields": {
       "dish_name": "Broth",
       "dish_category_id": "1",
-      "ingredient_id": "",
+      "ingredient_id": ["2", "3", "15", "18"],
       "recipe": "boil the whole chicken with two carrots, one onion and some parsley on low heat for at least two hours",
       "dish_description": "The soup of all soups. Great for those cold rainy days or just any days to be honest!"
     }
@@ -27,7 +27,7 @@
     "fields": {
       "dish_name": "Steak",
       "dish_category_id": "7",
-      "ingredient_id": "",
+      "ingredient_id": ["14", "16", "13"],
       "recipe": "grill your preffered cut of beef on high heat for three minutes per side and then leave it for at least three minutes to rest with a tablespoon of butter and some rosemary",
       "dish_description": "The most basic yet delicious thing to do with beef"
     }
@@ -38,7 +38,7 @@
     "fields": {
       "dish_name": "Pasta",
       "dish_category_id": "6",
-      "ingredient_id": "",
+      "ingredient_id": ["17", "13", "4", "19"],
       "recipe": "Boil spagetti according to recommendations on the packaging. Then drain it and serve with some butter, grated garlic and some tomatoes",
       "dish_description": "The dish that will take your mind to the South of Italy and will make you feel greater than ever!"
     }
@@ -49,7 +49,7 @@
   "fields": {
     "dish_name": "Sunny-egg",
     "dish_category_id": "11",
-    "ingredient_id": "",
+    "ingredient_id": ["11", "13"],
     "recipe": "Crack two eggs on well-buttered pan and fry them until whites are fully cooked and yolks are still runny",
     "dish_description": "The easiest meal ever! Everyone can do it, but here is the right way to do so"
   }
