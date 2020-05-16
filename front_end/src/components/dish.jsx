@@ -5,15 +5,16 @@ import { withNamespaces } from 'react-i18next';
 class Dish extends Component {
         render() {
 
-const { t } = this.props;
+	const { t } = this.props;
 
+	var pathToPicture = require(`../images/${this.props.name}.png`);
 
 	return(
                 <li className="list-group-item">
                 <div className="card mb-3 recipeCard">
                 <div className="row no-gutters">
                     <div className="col-md-4">
-                        <img src={require(`../images/${this.props.name}.png`)} className="card-img" alt={t("imgAlt")}/>
+                        <img src={pathToPicture} className="card-img" alt={t("imgAlt")}/>
                     </div>
                     <div className="col-md-8">
                         <div className="card-body">

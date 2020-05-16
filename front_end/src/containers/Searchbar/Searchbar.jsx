@@ -10,18 +10,23 @@ class Searchbar extends React.Component {
 	state = {
 		searchResult: []
 	}
-    handleCatChange(e) {
-	    var obj;
-        for(let i in JSON.parse(sessionStorage.getItem('dish'))){
-            if (JSON.parse(sessionStorage.getItem('dish'))[i].dish_name === e.target.value) {
-                obj =  JSON.parse(sessionStorage.getItem('dish'))[i];
-            }
-        }
-        this.setState({
-            searchResult: [obj]
-        });
+   
+	handleCatChange(dishChangeEvent) {
+		
+		var dishObjects = JSON.parse(sessionStorage.getItem('dish'));
 
-    }
+		for(let item in dishObjects){
+            		if (dishObjects[item].dish_name === dishChangeEvent.target.value) {
+
+				this.setState({
+					searchResult: [dishObjects[item]]
+				});
+
+			}
+        	}
+
+    	}
+
     componentDidMount(){
 		this.setState({
 			searchResult: JSON.parse(sessionStorage.getItem('dish'))
