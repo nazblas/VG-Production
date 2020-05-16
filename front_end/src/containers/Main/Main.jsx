@@ -5,7 +5,7 @@ import RecommendedDish from '../../components/recommendedDish.jsx'
 import CategoryBox from '../../components/categoryBox.jsx'
 import Searchbar from '../Searchbar/Searchbar.jsx'
 //import DishInfo from '../Dish_info/Dish_info.jsx'
-
+//test comment
 
 class Main extends React.Component {
 
