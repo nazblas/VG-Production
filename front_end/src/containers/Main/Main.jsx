@@ -4,8 +4,8 @@ import Dish from '../../components/dish.jsx'
 import RecommendedDish from '../../components/recommendedDish.jsx'
 import CategoryBox from '../../components/categoryBox.jsx'
 import Searchbar from '../Searchbar/Searchbar.jsx'
-//import DishInfo from '../Dish_info/Dish_info.jsx'
-//test comment
+import DishInfo from '../Dish_info/Dish_info.jsx'
+import {Route} from 'react-router-dom'
 
 class Main extends React.Component {
 
@@ -27,7 +27,6 @@ class Main extends React.Component {
 	showResult = resultList => {
    	 this.setState({ dishList: resultList });
  	 };
-
 	render() {
 
         return(
@@ -38,15 +37,19 @@ class Main extends React.Component {
                     <div className="col-md-2 categories">
 		        {this.state.categoryList.map(item => (<CategoryBox/>))}
                     </div>
-                    <div className="col-md-7">
-                        <ul className="list-group dishes" id="dishList">
-	     		    {this.state.dishList.map(item => (<Dish name={item.dish_name} desc={item.dish_description}/>))}
-			    {/*{this.state.dishList.map(item => (<DishInfo/>))} if you wanna test uncomment*/}
-			</ul>
+	                    <div className="col-md-7">
+	                        <ul className="list-group dishes" id="dishList">
+
+								{this.state.dishList.map(item => (<Route exact path = "/" render ={() => (<Dish name={item.dish_name} desc={item.dish_description}  id={item.id}/>)}/>))}
+								<Route
+		  						path='/dishinfo'
+		  							render={(props) => <DishInfo  name={this.state.dishList[0].dish_name} desc={this.state.dishList[0].dish_description} recipe = {this.state.dishList[0].recipe} />}
+											/>
+										 		</ul>
                     </div>
                     <div className="col-md-3">
                     	<ul className="list-group float-right recommended">
-	     		    {this.state.recommendedList.map(item => (<RecommendedDish name = {item.dish_name} desc = {item.dish_description}/>))}
+	     		    {this.state.recommendedList.map(item => (<RecommendedDish name = {item.dish_name} desc = {item.dish_description} id = {item.id}/>))}
 			</ul>
                     </div>
                 </div>

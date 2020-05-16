@@ -15,11 +15,12 @@ fetch('http://127.0.0.1:8000/api/dish/')
     .then(
       function(response) {
         response.json().then(function(data) {
-          sessionStorage.setItem('ingridient',data);
+          sessionStorage.setItem('ingridient',JSON.stringify(data));
         });
       }
     )
     .catch(function(err) {
       console.log('Failed loading ingridient data. Fetch Error :-S', err);
     });
+
   }
