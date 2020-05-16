@@ -88,5 +88,86 @@
       "ingredient_category_id" : "2"
 
     }
+  },
+  {
+    "model": "recipe_builder.Ingredient",
+    "pk": 11,
+    "fields": {
+      "ingredient_name": "Eggs",
+      "ingredient_category_id" : "7"
+
+    }
+  },
+  {
+    "model": "recipe_builder.Ingredient",
+    "pk": 12,
+    "fields": {
+      "ingredient_name": "Cream",
+      "ingredient_category_id" : "7"
+
+    }
+  },
+  {
+    "model": "recipe_builder.Ingredient",
+    "pk": 13,
+    "fields": {
+      "ingredient_name": "Butter",
+      "ingredient_category_id" : "7"
+
+    }
+  },
+  {
+    "model": "recipe_builder.Ingredient",
+    "pk": 14,
+    "fields": {
+      "ingredient_name": "Beef",
+      "ingredient_category_id" : "3"
+
+    }
+  },
+  {
+    "model": "recipe_builder.Ingredient",
+    "pk": 15,
+    "fields": {
+      "ingredient_name": "Chicken",
+      "ingredient_category_id" : "3"
+
+    }
+  },
+  {
+    "model": "recipe_builder.Ingredient",
+    "pk": 16,
+    "fields": {
+      "ingredient_name": "Rosemary",
+      "ingredient_category_id" : "5"
+
+    }
+  },
+  {
+    "model": "recipe_builder.Ingredient",
+    "pk": 17,
+    "fields": {
+      "ingredient_name": "Spagetti",
+      "ingredient_category_id" : "9"
+
+    }
+  },
+  {
+    "model": "recipe_builder.Ingredient",
+    "pk": 18,
+    "fields": {
+      "ingredient_name": "Parsley",
+      "ingredient_category_id" : "5"
+
+    }
+  },
+  {
+    "model": "recipe_builder.Ingredient",
+    "pk": 19,
+    "fields": {
+      "ingredient_name": "Tomato",
+      "ingredient_category_id" : "1"
+
+    }
   }
 ]
