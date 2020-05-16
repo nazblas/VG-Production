@@ -1,14 +1,12 @@
 import React,{Component} from 'react';
 import { withNamespaces } from 'react-i18next';
-
+import {NavLink} from 'react-router-dom';
 
 class Dish extends Component {
         render() {
 
 	const { t } = this.props;
-
 	var pathToPicture = require(`../images/${this.props.name}.png`);
-
 	return(
                 <li className="list-group-item">
                 <div className="card mb-3 recipeCard">
@@ -22,7 +20,8 @@ class Dish extends Component {
                                 {this.props.name}
                             </h5>
                             <p className="card-text">{this.props.desc}</p>
-                            <button type="submit" className="btn btn-light float-right my-2 btn-outline-warning">{t("moreBtn")}</button>
+                            <NavLink className="btn btn-light float-right my-2 btn-outline-warning" to='/dishinfo'
+                            onClick={() => sessionStorage.setItem("selectedDishId", this.props.id)}>{t("moreBtn")}</NavLink>
                         </div>
                     </div>
                 </div>
@@ -31,4 +30,5 @@ class Dish extends Component {
         );
         }
 }
+
 export default withNamespaces()(Dish)

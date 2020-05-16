@@ -3,17 +3,19 @@ import './App.css';
 import { withNamespaces } from 'react-i18next';
 import Main from './containers/Main/Main.jsx';
 import { storeDataToSessionStorage } from './api/session_storage.js';
-
+import {Switch, Route} from 'react-router-dom'
 class App extends Component {
-	
+
 	render() {
-	
-	storeDataToSessionStorage();   
-	
+
+	storeDataToSessionStorage();
+
 	return (
-        	<div className="App">
-            	<Main/>
-       		</div>
+		<div>
+			<Switch>
+				<Route path="/" component={Main}/>
+			</Switch>
+		</div>
 	)}
 }
 
