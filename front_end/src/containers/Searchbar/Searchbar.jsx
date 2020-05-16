@@ -57,7 +57,7 @@ class Searchbar extends React.Component {
                     <input type="radio" name="options"></input>
                 </label>
             </div>
-            <form action="#" className="form-inline mx-auto" placeholder="DropDown" onChange={this.handleCatChange.bind(this)}>
+            <form action="#" className="form-inline mx-auto" placeholder="DropDown" onChange={ this.handleCatChange.bind(this) }>
                 <select className="selectpicker searchbar" multiple data-live-search="true" data-style="btn-outline-warning" data-max-options="1" data-size="5">
                     {options}
                     });
