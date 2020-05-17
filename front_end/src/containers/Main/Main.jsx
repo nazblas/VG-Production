@@ -17,8 +17,7 @@ class Main extends React.Component {
 
 	componentDidMount(){
    		this.setState({
-			categoryList: [{category_id:1},
-				       {category_id:2}],
+			categoryList: [{category_id:1}, {category_id:2}],
 			dishList: JSON.parse(sessionStorage.getItem('dish')),
 			recommendedList: JSON.parse(sessionStorage.getItem('dish'))
 		});
@@ -30,31 +29,33 @@ class Main extends React.Component {
 	render() {
 
         return(
-	<React.Fragment>
-	<Searchbar onResponse={this.showResult}/>
-            <div className="container-fluid" id="main">
-                <div className="row">
-                    <div className="col-md-2 categories">
-		        {this.state.categoryList.map(item => (<CategoryBox/>))}
-                    </div>
-	                    <div className="col-md-7">
-	                        <ul className="list-group dishes" id="dishList">
-
-								{this.state.dishList.map(item => (<Route exact path = "/" render ={() => (<Dish name={item.dish_name} desc={item.dish_description}  id={item.id}/>)}/>))}
-								<Route
-		  						path='/dishinfo'
-		  							render={(props) => <DishInfo  name={this.state.dishList[0].dish_name} desc={this.state.dishList[0].dish_description} recipe = {this.state.dishList[0].recipe} />}
-											/>
-										 		</ul>
-                    </div>
-                    <div className="col-md-3">
-                    	<ul className="list-group float-right recommended">
-	     		    {this.state.recommendedList.map(item => (<RecommendedDish name = {item.dish_name} desc = {item.dish_description} id = {item.id}/>))}
-			</ul>
-                    </div>
-                </div>
-            </div>
-	</React.Fragment>
+			<React.Fragment>
+			<Searchbar onResponse={this.showResult}/>
+		    	<div className="container-fluid" id="main">
+		        	<div className="row">
+		             	<div className="col-md-2 categories">
+				        	<CategoryBox/>
+		                </div>
+			            <div className="col-md-7">
+			            	<ul className="list-group dishes" id="dishList">
+								{this.state.dishList.map(item =>
+									(<Route exact path = "/" render ={() =>
+										(<Dish name={item.dish_name} desc={item.dish_description}  id={item.id}/>)}/>))
+								}
+								<Route path='/dishinfo' render={(props) =>
+									<DishInfo name={this.state.dishList[0].dish_name} desc={this.state.dishList[0].dish_description} recipe = {this.state.dishList[0].recipe} />}/>
+							</ul>
+		                </div>
+		                <div className="col-md-3">
+		                	<ul className="list-group float-right recommended">
+			     		    	{this.state.recommendedList.map(item =>
+									(<RecommendedDish name = {item.dish_name} desc = {item.dish_description} id = {item.id}/>))
+								}
+							</ul>
+		                </div>
+		            </div>
+		        </div>
+			</React.Fragment>
         );
 	}
 }
