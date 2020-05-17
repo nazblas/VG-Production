@@ -14,7 +14,7 @@ class RecommendedDish extends Component {
 	return(
                   <li class="list-group-item">
                 <div className="card recommended--recipe">
-                    <img src={pathToPicture}  className="card-img-top recommended--recipe_image" alt={t("imgAlt")}/>
+                    <img src={pathToPicture} className="card-img-top recommended--recipe_image" alt={t("imgAlt")}/>
                     <div className="card-body">
                         <h5 className="card-title">{this.props.name}</h5>
                         <p className="card-text">{this.props.desc}</p>
