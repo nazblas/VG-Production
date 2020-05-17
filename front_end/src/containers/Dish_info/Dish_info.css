@@ -1,0 +1,22 @@
+.badge{
+    padding:0.5rem !important;
+    margin-left: 0.5rem;
+    font-size: 1.5rem;
+}
+.dish-name{
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+.ing{
+    font-size: 1rem;
+}
+.dish-desc{
+    font-size: 1.2rem;
+}
+.dish-text{
+    font-size: 1.2rem;
+    background-color:#ffefbf;
+    border: 3px solid #f0ad4e;
+    padding: 1rem;
+    border-radius: 12px;
+}
