@@ -1,6 +1,7 @@
 import React,{Component} from 'react';
 import { withNamespaces } from 'react-i18next';
 import {NavLink} from 'react-router-dom';
+import './dish.css';
 
 export function moreBtnClick(id){
     window.scrollTo({
@@ -28,7 +29,6 @@ class Dish extends Component {
                             <div className="mb-5">
                                 <p className="card-text">{this.props.desc}</p>
                             </div>
-
                         </div>
                     </div>
                 </div>}
