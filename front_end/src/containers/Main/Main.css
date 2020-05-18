@@ -1,13 +1,31 @@
 #main{
     margin-top: 4rem;
 }
+.text{
+  color: black;
+}
+.text:hover{
+  color: black;
+  text-decoration: none;
+
+}
 .recipeCard{
     background-color: #ffe494;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
 
+.recipeCard:hover{
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
 .recommended--recipe {
     width: 18rem;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+.recommended--recipe:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 .recommended--recipe_image{
     background-color: #ffdf75;

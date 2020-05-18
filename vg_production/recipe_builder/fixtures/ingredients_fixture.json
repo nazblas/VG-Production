@@ -169,5 +169,59 @@
       "ingredient_category_id" : "1"
 
     }
+  },
+  {
+    "model": "recipe_builder.Ingredient",
+    "pk": 20,
+    "fields": {
+      "ingredient_name": "Flour",
+      "ingredient_category_id" : "9"
+
+    }
+  },
+  {
+    "model": "recipe_builder.Ingredient",
+    "pk": 21,
+    "fields": {
+      "ingredient_name": "Milk",
+      "ingredient_category_id" : "7"
+
+    }
+  },
+  {
+    "model": "recipe_builder.Ingredient",
+    "pk": 22,
+    "fields": {
+      "ingredient_name": "Strawberries",
+      "ingredient_category_id" : "2"
+
+    }
+  },
+  {
+    "model": "recipe_builder.Ingredient",
+    "pk": 23,
+    "fields": {
+      "ingredient_name": "Rice",
+      "ingredient_category_id" : "9"
+
+    }
+  },
+  {
+    "model": "recipe_builder.Ingredient",
+    "pk": 24,
+    "fields": {
+      "ingredient_name": "Cottage cheese",
+      "ingredient_category_id" : "7"
+
+    }
+  },
+  {
+    "model": "recipe_builder.Ingredient",
+    "pk": 25,
+    "fields": {
+      "ingredient_name": "Apples",
+      "ingredient_category_id" : "2"
+
+    }
   }
 ]

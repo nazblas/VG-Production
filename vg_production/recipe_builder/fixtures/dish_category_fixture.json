@@ -75,5 +75,12 @@
     "fields": {
       "dish_category_name": "Breakfasts"
     }
+  },
+  {
+    "model": "recipe_builder.Dish_Category",
+    "pk": 12,
+    "fields": {
+      "dish_category_name": "Drinks"
+    }
   }
 ]

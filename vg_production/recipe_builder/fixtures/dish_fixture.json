@@ -6,8 +6,8 @@
       "dish_name": "Omelette",
       "dish_category_id": "11",
       "ingredient_id": ["11", "12", "13"],
-      "recipe": "Whisk three eggs with two tablespoons of cream and cook them on low heat on well-buttered pan",
-      "dish_description": "A nice way to cheer you up in the morning or any other part of your day!"
+      "recipe": "For a basic omelette, crack the eggs into a mixing bowl with two teaspoons of cream, add a pinch of sea salt and black pepper. Beat well with a fork. Heat a small knob of butter in a small frying pan on a low heat, and once melted and bubbling, add the eggs and move the pan around to spread them out evenly.When the omelette begins to cook and firm up, but still has a little raw egg on top, sprinkle over the cheese (if using). I sometimes grate mine directly on to the omelette. Using a spatula, ease around the edges of the omelette, then fold it over in half. When it starts to turn golden brown underneath, remove the pan from the heat and slide the omelette on to a plate.",
+      "dish_description": "A nice way to cheer you up in the morning or any other part of your day! Omelettes are really easy to knock together and super-satisfying"
     }
   },
   {
@@ -16,9 +16,9 @@
     "fields": {
       "dish_name": "Broth",
       "dish_category_id": "1",
-      "ingredient_id": ["2", "3", "15", "18"],
-      "recipe": "boil the whole chicken with two carrots, one onion and some parsley on low heat for at least two hours",
-      "dish_description": "The soup of all soups. Great for those cold rainy days or just any days to be honest!"
+      "ingredient_id": ["2", "3", "15", "18", "7", "4"],
+      "recipe": "Roughly chop the celery, onions and carrots. Leaving it unpeeled, bash the half bulb of garlic. Place the chicken carcasses, garlic, vegetables, parsley and peppercorns in a large, deep-bottomed pan. Add the cold water and bring to the boil, skim, then turn the heat down to a simmer. Continue to simmer gently for 3-4 hours, skimming as necessary, then pass the broth through a fine sieve. Allow to cool for about half an hour, then refrigerate. Once the broth is cold it should look clear and slightly amber in colour. You can divide it into small plastic containers at this point and freeze it. It will keep in the fridge for about 4 days and in the freezer for 2-3 months.",
+      "dish_description": "The soup of all soups. Great for those cold rainy days or just any days to be honest! This chicken broth recipe is so simple – just chuck a few things in a pan and let it do its thing"
     }
   },
   {
@@ -28,8 +28,8 @@
       "dish_name": "Steak",
       "dish_category_id": "7",
       "ingredient_id": ["14", "16", "13"],
-      "recipe": "grill your preffered cut of beef on high heat for three minutes per side and then leave it for at least three minutes to rest with a tablespoon of butter and some rosemary",
-      "dish_description": "The most basic yet delicious thing to do with beef"
+      "recipe": "Put a non-stick frying pan on a high heat to heat up. Season the steak with a small pinch of sea salt and a pinch of black pepper, then rub into both sides. Put 1 tablespoon of butter and pat that all over, too. Strip the rosemary leaves off one of the stalks and finely chop them, using the cross chop method – it keeps your fingers out of the way. Rub the chopped rosemary into the steak. Carefully place the steak into the hot pan and cook for 2 minutes on each side for medium-rare, or until cooked to your liking. Use the remaining rosemary sprig to brush the butter from the pan over the steak as it cooks, adding loads of lovely flavour.",
+      "dish_description": "The most basic yet delicious thing to do with beef. Cooking the perfect steak is a great skill to learn but remember: when searing a steak, you need a hot pan for ultimate success, so please keep an eye on your little helpers with this one."
     }
   },
   {
@@ -38,9 +38,9 @@
     "fields": {
       "dish_name": "Pasta",
       "dish_category_id": "6",
-      "ingredient_id": ["17", "13", "4", "19"],
-      "recipe": "Boil spagetti according to recommendations on the packaging. Then drain it and serve with some butter, grated garlic and some tomatoes",
-      "dish_description": "The dish that will take your mind to the South of Italy and will make you feel greater than ever!"
+      "ingredient_id": ["17", "13", "4", "19", "18"],
+      "recipe": "Peel and finely slice the garlic, then pick the parsley leaves and finely chop the stalks. Cook the spagetti in a pan of boiling salted water for 8 to 10 minutes, or until al dente, which means that it should be soft enough to eat, but still have a bit of bite and firmness to it, then drain, reserving some of the pasta water. Heat a lug of butter in a saucepan over a medium heat, add the garlic and fry for 1 to 2 minutes, or until golden. Add the basil stalks and chopped tomatoes, breaking the tomatoes up with the back of a spoon. Bring to the boil, season with sea salt and black pepper and simmer for 5 minutes, then remove from the heat and season to taste, if needed. Finish off the sauce by stirring through the parsley leaves. Toss the spagetti in the sauce, adding a little cooking water to loosen, if needed. Enjoy!",
+      "dish_description": "The dish that will take your mind to the South of Italy and will make you feel greater than ever! This is one of the simplest, but most underrated dishes out there – tomatoey pasta with aromatic garlic, and all finished with fresh parsley – bellissima!"
     }
   },
   {
@@ -50,8 +50,74 @@
     "dish_name": "Sunny-egg",
     "dish_category_id": "11",
     "ingredient_id": ["11", "13"],
-    "recipe": "Crack two eggs on well-buttered pan and fry them until whites are fully cooked and yolks are still runny",
-    "dish_description": "The easiest meal ever! Everyone can do it, but here is the right way to do so"
+    "recipe": "Heat the butter in a medium nonstick skillet over low heat until slightly shimmering, about 5 minutes. Crack an egg into a small ramekin and slowly add it to the skillet; repeat with the other egg, adding it to the other side of the skillet. Cover with a tight lid and cook, uninterrupted, until the whites are completely set but the yolks are still runny, 2 to 2 1/2 minutes. Slide the eggs out of the skillet onto a plate or toast. Season with salt and pepper.",
+    "dish_description": "Perfectly soft and silky fried eggs, ready to eat in just 5 minutes. The easiest meal ever! Everyone can do it, but here is the right way to do so"
   }
-}
+},
+  {
+    "model": "recipe_builder.Dish",
+    "pk":6 ,
+    "fields": {
+      "dish_name": "Crepes",
+      "dish_category_id": "8",
+      "ingredient_id": ["11", "13","20", "21"],
+      "recipe": "Combine flour, milk and eggs. Heat a well-buttered pan and remove from heat. Spoon in 2 Tbsp batter; lift and tilt skillet to spread evenly.Return to heat; brown on one side only.To remove, invert pan over paper toweling.",
+      "dish_description": "A variation of pancake that is thin and ready to be rolled with whatever you wish inside of them! Take this versatile crepe recipe in a sweet or savoury direction, depending on what you fancy."
+    }
+  },
+  {
+    "model": "recipe_builder.Dish",
+    "pk":7 ,
+    "fields": {
+      "dish_name": "Pancakes",
+      "dish_category_id": "8",
+      "ingredient_id": ["11", "20", "21"],
+      "recipe": "In a large bowl, sift together the flour, salt and sugar. Make a well in the center and pour in the milk, egg and melted butter; mix until smooth. Heat a lightly buttered griddle or frying pan over medium high heat. Pour or scoop the batter onto the griddle, using approximately 1/4 cup for each pancake. Brown on both sides and serve hot.",
+      "dish_description": "This recipe fo everyone's favourite breakfast is just right. Those light and fluffy pancakes will be on your plate in about twenty minutes!"
+    }
+  },
+  {
+    "model": "recipe_builder.Dish",
+    "pk":8 ,
+    "fields": {
+      "dish_name": "Milkshake",
+      "dish_category_id": "12",
+      "ingredient_id": ["21", "22"],
+      "recipe": "Put  one glass of milk,a handfull of berries into food processor and process it by pulsing until nice and smooth. Serve in a tall pre-chilled glass for maximum pleasure!",
+      "dish_description": "Quick and easy drink that stays healthy while being very tasty. Teach your kids to do it, they will certainly love it!"
+    }
+  },
+  {
+    "model": "recipe_builder.Dish",
+    "pk":9 ,
+    "fields": {
+      "dish_name": "Risotto",
+      "dish_category_id": "5",
+      "ingredient_id": ["23", "13", "3"],
+      "recipe": "Cook one big onion in three tablespoons of butter for three minutes, then add one cup of rice and fry it with onions until translusent. Add two cups of hot water and close the lid. Cook until rice is soft but still al dente. Add another three tablespoons of butter and stir it in before serving hot.",
+      "dish_description": "Northern Italian rice dish known for its creamy consistency. Its very easy to put together with stuff that you most likely already have at home!"
+    }
+  },
+  {
+    "model": "recipe_builder.Dish",
+    "pk":10 ,
+    "fields": {
+      "dish_name": "Cheesecakes",
+      "dish_category_id": "8",
+      "ingredient_id": ["11", "20", "21", "24"],
+      "recipe": "Combine half a cup of flour,two cups of cheese, three tablespoons of sugar and two eggs in a big bowl. Heat a lightly greased skillet. Once hot, put medium balls of cheesy mixture on the pan and press down to flatten it. Cook for three minutes per side or until golden-brown.",
+      "dish_description": "Quick dessert that is very popular in Ukraine, made from cottage cheese. Its easy to make and is high in protein which is great for your body."
+    }
+  },
+  {
+    "model": "recipe_builder.Dish",
+    "pk":11 ,
+    "fields": {
+      "dish_name": "Compotte",
+      "dish_category_id": "12",
+      "ingredient_id": ["22", "25"],
+      "recipe": "Put a big pot with four liters of water over high heat. Cut two handfuls of strawberries in half. Cut four apples in medium chunks (you dont need to peel them or take the stem out). Once the water is boiling, throw apples and berries in and close the lid. Cook for three to five minute and leave aside for at least half and hour. You can add three tablespoons of sugar if you wish at this point. Serve as it is or add some ice in if you want it to be more refreshing!",
+      "dish_description": "Popular  in Eastern Europe drink made with fruits and berries that goes well both hot and cold!"
+    }
+  }
 ]

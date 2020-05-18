@@ -13,14 +13,18 @@ class RecommendedDish extends Component {
 
 	return(
                   <li class="list-group-item">
-                <div className="card recommended--recipe">
+                  <NavLink to='/dishinfo' className = "text" onClick={() => moreBtnClick(this.props.id)}>
+                <div className="card recommended--recipe ">
                     <img src={pathToPicture}  className="card-img-top recommended--recipe_image" alt={t("imgAlt")}/>
                     <div className="card-body">
                         <h5 className="card-title">{this.props.name}</h5>
                         <p className="card-text">{this.props.desc}</p>
-                        <NavLink className="btn btn-warning" to='/dishinfo' onClick={() => moreBtnClick(this.props.id)}>{t("moreBtn")}</NavLink>
+                        <div className="col-md-12">
+
+                        </div>
                     </div>
                 </div>
+                </NavLink>
             </li>
 );
         }

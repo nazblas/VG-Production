@@ -131,5 +131,47 @@
     "fields": {
       "ingredient_id": "19"
     }
+  },
+  {
+    "model": "recipe_builder.Dish_Ingredient",
+    "pk": 20,
+    "fields": {
+      "ingredient_id": "19"
+    }
+  },
+  {
+    "model": "recipe_builder.Dish_Ingredient",
+    "pk": 21,
+    "fields": {
+      "ingredient_id": "19"
+    }
+  },
+  {
+    "model": "recipe_builder.Dish_Ingredient",
+    "pk": 22,
+    "fields": {
+      "ingredient_id": "19"
+    }
+  },
+  {
+    "model": "recipe_builder.Dish_Ingredient",
+    "pk": 23,
+    "fields": {
+      "ingredient_id": "19"
+    }
+  },
+  {
+    "model": "recipe_builder.Dish_Ingredient",
+    "pk": 24,
+    "fields": {
+      "ingredient_id": "19"
+    }
+  },
+  {
+    "model": "recipe_builder.Dish_Ingredient",
+    "pk": 25,
+    "fields": {
+      "ingredient_id": "19"
+    }
   }
 ]
